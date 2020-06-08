@@ -1,5 +1,5 @@
 .top-header {
-    width: 100%;
+    width: 750px;
     height: 120px;
     border: solid lightgrey 1px;
 }
@@ -38,13 +38,13 @@
 
 .three-dots {
   position: relative;
-  left: 700px;
+  left: 690px;
   bottom: 75px;
 }
 
 .main-picture{
     align-items: center;
-    width: 100%;
+    width: 752px;
     height: 500px;
 }
 
@@ -53,30 +53,32 @@
     height: 120px;  
 }
 
-.icons {         
+.icons {   
+    width: 750px;      
     flex-direction: row;
     justify-content: space-around;
+    position: relative;
 }
 
 .like {
     width: 50px;
-    left:  50px;
+    height: 50px;
     position: relative;
     left: 30px;
 }
 
 .speech-bubble {
     width: 50px;
-    left:  50px;
+    height: 50px;
     position: relative;
-    left: 40px;
+    left: 65px;
 }
 
 .message {
     width: 50px;
-    left:  50px;
+    height: 50px;
     position: relative;
-    left: 50px;
+    left: 95px;
 }
 
 .two-dot {
@@ -87,6 +89,12 @@
     bottom: 25px;
 }
 
+.bookmark {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 450px;
+}
 .second-user {
     width: px;
     left:  50px;
